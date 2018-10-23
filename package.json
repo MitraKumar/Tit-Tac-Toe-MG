@@ -1,0 +1,27 @@
+{
+  "name": "tic-tac-toe-mg",
+  "version": "1.0.0",
+  "description": "A simple implementation of socket.io",
+  "main": "index.js",
+  "scripts": {
+    "server-install": "cd server && npm install",
+    "client-install": "cd client && npm install",
+    "server-run": "cd server && npm run dev",
+    "client-run": "cd client && npm start",
+    "watch": "concurrently \"npm run server-run\" \"npm run client-run\"",
+    "install-all": "concurrently \"npm run server-install\" \"npm run client-install\""
+  },
+  "dependencies": {
+    "concurrently": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MitraKumar/Tit-Tac-Toe-MG.git"
+  },
+  "author": "Kaushik Mitra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MitraKumar/Tit-Tac-Toe-MG/issues"
+  },
+  "homepage": "https://github.com/MitraKumar/Tit-Tac-Toe-MG#readme"
+}
