@@ -1,7 +1,7 @@
 import { TicTacToe } from './tictactoe'
 import { SocketIO } from './socketio'
 
-export class UI {
+class UI {
     socket: SocketIO;
     username: string;
 

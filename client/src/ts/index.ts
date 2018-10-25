@@ -1,5 +1,5 @@
 import { SocketIO } from './socketio'
-import { Game, UI } from './web'
+import { Game } from './web'
 import '../scss/main.scss'
 
 const socket = new SocketIO('http://localhost:3000')

@@ -6,8 +6,8 @@
   "scripts": {
     "server-install": "cd server && npm install",
     "client-install": "cd client && npm install",
-    "server-run": "cd server && npm run dev",
-    "client-run": "cd client && npm start",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
     "watch": "concurrently \"npm run server-run\" \"npm run client-run\"",
     "install-all": "concurrently \"npm run server-install\" \"npm run client-install\""
   },
